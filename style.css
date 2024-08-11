@@ -41,14 +41,13 @@ h4 {
   width: 100%;
   font: 1, 2em sans-serif bold;
   margin: 0px;
-  color: black
+  color: black;
 }
 
 h2 {
   padding: 0px 0px 5px 25px;
   width: 100%;
   font: 1em sans-serif bold;
-
   margin: 0px;
   color: #515154;
 }
@@ -97,7 +96,6 @@ body {
   padding-right: 90px;
   grid-row: auto;
 }
-
 
 nav > a {
   margin-right: 10px;
