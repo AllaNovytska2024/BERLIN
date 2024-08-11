@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
-  
 }
-html{
+html {
   margin: 0;
 }
 main {
@@ -22,8 +21,8 @@ header {
 .line {
   position: sticky;
   top: 0px;
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
   align-items: start;
   width: 100%;
   height: 1px;
@@ -40,10 +39,12 @@ h3 {
 h4 {
   padding: 0px 0px 5px 25px;
   width: 100%;
-  font: 1em sans-serif bold;
-
+  font: 1, 2em sans-serif bold;
   margin: 0px;
-  color: #515154;
+  color: black
+}
+span {
+  text-decoration: solid;
 }
 h2 {
   padding: 0px 0px 5px 25px;
@@ -65,7 +66,7 @@ body {
   background-color: white;
   width: 100%;
 }
-.img-wrapper-logo{
+.img-wrapper-logo {
   width: 20px;
   height: 10px;
 }
@@ -74,13 +75,11 @@ body {
   height: 450px;
   padding: 0px 0px 0px 0px;
   margin: 0;
-  
 }
 .img-wrapper {
   margin: 0px;
   width: 100%;
   height: 200px;
-  
 }
 .img-wrapper > img {
   /* за счет этих свойств картинка растягивается равномерно по размеру контейнера-родителя */
@@ -100,15 +99,12 @@ body {
   padding-right: 90px;
   grid-row: auto;
 }
-.text{
-  color: #000;
-  font: 1em sans-serif bold;
-}
+
+
 nav > a {
   margin-right: 10px;
   text-decoration: none;
   color: black;
-  
 }
 
 nav > span {
@@ -121,8 +117,7 @@ nav > a:hover {
   text-decoration: underline;
 }
 
-
-.grid-gallery1-text2{
+.grid-gallery1-text2 {
   display: grid;
   /* адаптивная галерея с переносом резиновых карточек на следующие строки */
   grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
@@ -131,11 +126,11 @@ nav > a:hover {
   padding: 0px 110px 5px;
   font-size: 80%;
 }
-h6{
+h6 {
   color: white;
   font-size: 35%;
 }
-.grid-gallery1-text1{
+.grid-gallery1-text1 {
   display: grid;
   /* адаптивная галерея с переносом резиновых карточек на следующие строки */
   grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
@@ -144,7 +139,7 @@ h6{
   padding: 450px 110px 5px;
   font-size: 80%;
 }
-.grid-card-text{
+.grid-card-text {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -152,11 +147,6 @@ h6{
   padding: 5px;
   height: 22px;
   width: 300;
-
-
-
-
-
 }
 .grid-gallery1 {
   display: grid;
@@ -256,8 +246,6 @@ footer {
   /* header {
       background-color: rgb(189, 68, 68);
     } */
-
-  
 
   .burger-menu {
     /* показываем иконку складного меню */
